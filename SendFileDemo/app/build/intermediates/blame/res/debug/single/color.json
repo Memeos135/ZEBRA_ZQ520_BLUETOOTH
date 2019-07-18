@@ -1,5 +1,29 @@
 [
     {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/switch_thumb_material_light.xml"
     },
@@ -20,6 +44,14 @@
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
@@ -30,6 +62,10 @@
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",

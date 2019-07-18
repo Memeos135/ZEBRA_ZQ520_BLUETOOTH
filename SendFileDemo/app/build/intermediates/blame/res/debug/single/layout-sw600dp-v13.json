@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/layout_snackbar.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/layout-sw600dp/layout_snackbar.xml"
+    },
+    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/layout_snackbar.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/layout-sw600dp/layout_snackbar.xml"
     }

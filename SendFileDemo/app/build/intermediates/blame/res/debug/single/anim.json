@@ -1,7 +1,27 @@
 [
     {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/snackbar_out.xml"
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
@@ -12,20 +32,68 @@
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_in_top.xml"
     },
     {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/snackbar_out.xml"
     },
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/fab_in.xml"
     },
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
@@ -40,19 +108,7 @@
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/res/anim/snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/anim/abc_fade_in.xml"
     }
 ]

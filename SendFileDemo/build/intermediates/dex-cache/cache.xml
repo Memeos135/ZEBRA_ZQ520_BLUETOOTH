@@ -3,183 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mohammedbokhari/.android/build-cache/ba201f82dac806a3a87da78407a599abbc85b70e/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/classes_30be2f208cae493198ef14b293d9f1f0fa6c8264.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/jackson-annotations-2.2.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.3_47b0542810b8664dd8bd7411d3f2ec2c80b062da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/commons-io-2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-io-2.2_197489e75c397a02f25ac6f29ebcd98cf3226177.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/pkix-1.53.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="340c75534d964f468d82ed42006a7255362046c7">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/pkix-1.53.0.0_5c48a7af6dab7b961dac6be0b1629d4312e5641d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/classes_1c2e99d40fac9e5b10293f8a47ebce7a3d38bb21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/commons-net-3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-net-3.1_169c9e8fc483cff5b8dde13dcfbddc04d478e4cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/snmp6_1z.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f65af1cddb65e525f89a48c8c711a9ef95da26f5">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/snmp6_1z_35576429bc117679830dfb1b6d3f412d4ee072ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/httpcore-4.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="98e2eefcf524f757188f172642ecf5e2c7421947">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/httpcore-4.3.1_8aade563872778a7473617a97f95ef7a5a264baa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/commons-validator-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="42fa1046955ade59f5354a1876cfc523cea33815">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-validator-1.4.0_bd074aafe7a175318cf791caa0cd697151e36d2a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/core-1.53.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="619f704791db186304325bd129b2e7ec34f77438">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/core-1.53.0.0_3267b60e59ae27728ad8b6fc7e20ceb53c1a7792.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/.android/build-cache/64c8925ff28103a1f87c386a21e0bda537af363f/output/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_08d3e1036566d221054a5bbb025bfb774a194c51.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/ZSDK_ANDROID_API.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9b2e3b24880bbd526b0b23469b125aed3ef6d6f4">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/ZSDK_ANDROID_API_f23896fed3d3dab43747172796e8c9ac5df62c95.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/prov-1.53.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/prov-1.53.0.0_09cbd8a3962fc2484fcd133e0e1ed7b775df3eae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/opencsv-2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f1231104847b1132a07c54c7db8a823ef7923f7c">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/opencsv-2.2_eabe8e76e81db278b387ba1bf36b3b4af793a65e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/httpmime-4.3.2.jar"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/httpmime-4.3.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/httpmime-4.3.2_286412fc007780721c737b01864b478f33cf8a22.jar" />
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/httpmime-4.3.2_91b948f9a3a83593521e200be534a3a54a37c820.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/jackson-databind-2.2.3.jar"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/commons-validator-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42fa1046955ade59f5354a1876cfc523cea33815">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-validator-1.4.0_c392144cd82edc0a22e079d3faca4d7c0b3f47cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/jackson-databind-2.2.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.3_bc3c1c9f18a915d717244fe7512c4929c196058e.jar" />
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.3_ceac72a55ee50ac3e8763764b8b79ea61850a0d2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mohammedbokhari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/pkix-1.53.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_6374cc1ac567a897da9c4d80905d914967a826e7.jar" />
+        sha1="340c75534d964f468d82ed42006a7255362046c7">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/pkix-1.53.0.0_730c8bf5046ef97b62665618a283b78da9cae483.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/jackson-core-2.2.3.jar"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/ZSDK_ANDROID_API.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b2e3b24880bbd526b0b23469b125aed3ef6d6f4">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/ZSDK_ANDROID_API_2d2be7838b6d95c207bcd8cf9b12a9e37665210c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/snmp6_1z.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f65af1cddb65e525f89a48c8c711a9ef95da26f5">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/snmp6_1z_cdd2343ee3bdaa58cb08de3295502b4ca335359e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/commons-io-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-io-2.2_ca7dd7f59a66e883ff448e1530c78b144b61a2e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/jackson-annotations-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.3_dd99afb1e0d80b9cdbd863caf133eae8cc58f075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/opencsv-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1231104847b1132a07c54c7db8a823ef7923f7c">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/opencsv-2.2_a080fddd65c59b98eb2e83012070673287d062fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/httpcore-4.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98e2eefcf524f757188f172642ecf5e2c7421947">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/httpcore-4.3.1_b5fddf5e30f52453570aa4964a1832d907a97a77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/core-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/core-1.53.0.0_85f271758f5013f330e9ce07081ec66a46059d4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/jackson-core-2.2.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3_397383bb4e195de7ac30315b37f25057c561e152.jar" />
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3_181a4c13f38b75d0b810aaa446592875fd65b16e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mohammedbokhari/.android/build-cache/64c8925ff28103a1f87c386a21e0bda537af363f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/classes_03c76a4a707aa794ed88e950f63519addf097bca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/libs/commons-lang3-3.4.jar"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/commons-lang3-3.4.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
-        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-lang3-3.4_83ab1cc9bf36948d3b020e603e26bc67bc615132.jar" />
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-lang3-3.4_2bea64bcad283c53b9cb28f42b93937dba30cc57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/prov-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/prov-1.53.0.0_ea8d3e37aa25019578f88fafe7cc4c04c147417f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/commons-net-3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
+        <dex dex="/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/pre-dexed/debug/commons-net-3.1_97395825afdcf6b2c5e0e23b40c4fafc769ce63a.jar" />
     </item>
 
 </items>
