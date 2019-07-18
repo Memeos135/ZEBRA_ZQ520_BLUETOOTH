@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/values-xlarge-land/values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 299,
+                        "endColumn": 63,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    }
+]
