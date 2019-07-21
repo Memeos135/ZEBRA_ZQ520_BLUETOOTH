@@ -109,10 +109,12 @@
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/jackson-core-2.2.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/prov-1.53.0.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/httpcore-4.3.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:cardview-v7:22.2.0@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/opencsv-2.2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:design:22.2.0@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/pkix-1.53.0.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7:22.2.0@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/libs/snmp6_1z.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7:22.2.0@aar" level="project" />
   </component>
 </module>

@@ -47,4 +47,6 @@ dependencies {
     compile files('libs/opencsv-2.2.jar')
     compile files('libs/snmp6_1z.jar')
     compile files('libs/ZSDK_ANDROID_API.jar')
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+    compile 'com.android.support:cardview-v7:22.2.0'
 }

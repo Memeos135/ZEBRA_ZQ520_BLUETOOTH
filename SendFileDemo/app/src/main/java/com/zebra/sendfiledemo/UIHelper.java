@@ -19,15 +19,28 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 import android.content.DialogInterface;
+import android.os.Build;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 /**
  * @author mlim3 This class handles the display of dialogs.
  */
 public class UIHelper {
-    ProgressDialog loadingDialog;
-    Activity activity;
+    private ProgressDialog loadingDialog;
+    private Activity activity;
+    private RecyclerView recyclerView;
+    private BluetoothDeviceAdapter bluetoothDeviceAdapter;
+    private ArrayList<BluetoothDevice> deviceList;
+    private BluetoothAdapter bluetoothAdapter;
 
     public UIHelper(Activity activity) {
         this.activity = activity;
@@ -46,6 +59,39 @@ public class UIHelper {
                 }
             });
         }
+    }
+
+    public void updateAdapter(){
+        bluetoothDeviceAdapter.notifyDataSetChanged();
+    }
+
+    public void setList(ArrayList<BluetoothDevice> devices){
+        this.deviceList = devices;
+    }
+
+    public void showRecyclerDialog(Activity activity, BluetoothDeviceAdapter bluetoothDeviceAdapter, final BluetoothAdapter bluetoothAdapter){
+        final Dialog dialog = new Dialog(activity);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.printer_list_layout);
+        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+        dialog.getWindow().setBackgroundDrawableResource(R.color.near_black);
+        dialog.setCancelable(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            dialog.create();
+        }
+        this.bluetoothDeviceAdapter = bluetoothDeviceAdapter;
+        recyclerView = (RecyclerView) dialog.findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(activity));
+        recyclerView.setAdapter(bluetoothDeviceAdapter);
+
+        dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialogInterface) {
+                bluetoothAdapter.cancelDiscovery();
+            }
+        });
+
+        dialog.show();
     }
 
     public void updateLoadingDialog(final String message) {

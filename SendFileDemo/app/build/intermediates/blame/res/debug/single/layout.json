@@ -276,6 +276,10 @@
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/layout/printer_info_card.xml",
+        "source": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/src/main/res/layout/printer_info_card.xml"
+    },
+    {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/mohammedbokhari/.android/build-cache/4009b7f8ec2485924134cd8e31dea6feb7aed68a/output/res/layout/abc_alert_dialog_material.xml"
     },
@@ -294,6 +298,10 @@
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/build/intermediates/res/merged/debug/layout/printer_list_layout.xml",
+        "source": "/Users/mohammedbokhari/Desktop/ZEBRA_ZQ520_BLUETOOTH/SendFileDemo/app/src/main/res/layout/printer_list_layout.xml"
     },
     {
         "merged": "/Users/mohammedbokhari/Desktop/ZEBRA/LinkOS-Android-Samples/SendFileDemo/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",

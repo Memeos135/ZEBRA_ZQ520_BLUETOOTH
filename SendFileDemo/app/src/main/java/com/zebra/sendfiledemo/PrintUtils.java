@@ -25,6 +25,7 @@ import com.zebra.sdk.printer.ZebraPrinterLinkOs;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class PrintUtils {
     private  UIHelper uiHelper;
@@ -33,6 +34,7 @@ public class PrintUtils {
     private String mHardwareAddress;
     private SharedPreferences storage;
     private Activity activity;
+    private ArrayList<BluetoothDevice> deviceList;
 
     public static final String bluetoothAddressKey = "ZEBRA_DEMO_BLUETOOTH_ADDRESS";
     public static final String PREFS_NAME = "OurSavedAddress";
@@ -45,6 +47,8 @@ public class PrintUtils {
 
         this.activity = activity;
         uiHelper = new UIHelper(activity);
+
+        deviceList = new ArrayList<>();
 
         IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
         activity.registerReceiver(mReceiver, filter);
@@ -59,22 +63,24 @@ public class PrintUtils {
                 // Discovery has found a device. Get the BluetoothDevice
                 // object and its info from the Intent.
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-                mHardwareAddress = device.getAddress(); // MAC address
 
-                if(!storage.getString(bluetoothAddressKey, "").isEmpty()) {
-                    fetchMacAddress(storage.getString(bluetoothAddressKey, ""));
-                }else{
-                    fetchMacAddress(activity.getString(R.string.macAdd));
+                if(!deviceList.contains(device)){
+                    deviceList.add(device);
                 }
+
+                // update adapter on scan
+                updateRecyclerView();
             }
         }
     };
 
+    public void updateRecyclerView(){
+        uiHelper.setList(deviceList);
+        uiHelper.updateAdapter();
+    }
+
     public void fetchMacAddress(String input){
-        if (mHardwareAddress.equalsIgnoreCase(input)) {
-            uiHelper.dismissLoadingDialog();
-            connectAndGetData();
-        }
+        connectAndGetData(input);
     }
 
     /**
@@ -82,7 +88,7 @@ public class PrintUtils {
      */
 
     // NEEDED
-    private void connectAndGetData() {
+    private void connectAndGetData(String mHardwareAddress) {
 
         connection = new BluetoothConnection(mHardwareAddress);
         try {
@@ -103,7 +109,6 @@ public class PrintUtils {
                 Log.i("log", "Media out. Please load media to print");
             }
             connection.close();
-            saveSettings();
         } catch (ConnectionException e) {
             e.printStackTrace();
         } catch (ZebraPrinterLanguageUnknownException e) {
@@ -124,7 +129,7 @@ public class PrintUtils {
             uiHelper.showErrorDialog("Bluetooth is disabled.");
         } else {
             mBluetoothAdapter.startDiscovery();
-            uiHelper.showLoadingDialog("Scanning...");
+            uiHelper.showRecyclerDialog(activity, new BluetoothDeviceAdapter(activity, deviceList), mBluetoothAdapter);
         }
     }
 
@@ -172,12 +177,5 @@ public class PrintUtils {
         os.write(configLabel);
         os.flush();
         os.close();
-    }
-
-    private void saveSettings() {
-        SharedPreferences settings = activity.getSharedPreferences(PREFS_NAME, 0);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putString(bluetoothAddressKey, mHardwareAddress);
-        editor.commit();
     }
 }
