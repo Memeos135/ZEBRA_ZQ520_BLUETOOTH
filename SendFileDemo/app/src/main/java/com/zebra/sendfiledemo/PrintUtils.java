@@ -7,7 +7,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -31,19 +31,12 @@ public class PrintUtils {
     private  UIHelper uiHelper;
     private Connection connection = null;
     private BluetoothAdapter mBluetoothAdapter;
-    private String mHardwareAddress;
-    private SharedPreferences storage;
     private Activity activity;
     private ArrayList<BluetoothDevice> deviceList;
 
-    public static final String bluetoothAddressKey = "ZEBRA_DEMO_BLUETOOTH_ADDRESS";
-    public static final String PREFS_NAME = "OurSavedAddress";
-
-    public PrintUtils(Activity activity, SharedPreferences storage){
+    public PrintUtils(Activity activity){
 
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-
-        this.storage = storage;
 
         this.activity = activity;
         uiHelper = new UIHelper(activity);
@@ -54,6 +47,9 @@ public class PrintUtils {
         activity.registerReceiver(mReceiver, filter);
     }
 
+    /**
+     * Receiver for bluetooth scanning events
+     */
 
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
@@ -74,17 +70,24 @@ public class PrintUtils {
         }
     };
 
+    /**
+     * This method sets up the scanned devices recycler view
+     */
+
     public void updateRecyclerView(){
         uiHelper.setList(deviceList);
         uiHelper.updateAdapter();
     }
 
+    /**
+     * This method connects to a ZEBRA printer and send it a file to print
+     */
     public void fetchMacAddress(String input){
         connectAndGetData(input);
     }
 
     /**
-     * Check for the printer status and language and send the test file to the printer,implements best practices to show status of the printer.
+     * This method checks for the printer status and language and send the test file to the printer, implements best practices to show status of the printer.
      */
 
     // NEEDED
@@ -102,18 +105,27 @@ public class PrintUtils {
             if (printerStatus.isReadyToPrint) {
                 testSendFile(printer);
             } else if (printerStatus.isHeadOpen) {
-                Log.i("log", "Head open, please close printet head to print");
+                Log.i("log", "Head open, please close printer head to print");
             } else if (printerStatus.isPaused) {
                 Log.i("log", "Printer paused");
             } else if (printerStatus.isPaperOut) {
                 Log.i("log", "Media out. Please load media to print");
             }
             connection.close();
+            saveMacAddress(mHardwareAddress);
         } catch (ConnectionException e) {
             e.printStackTrace();
         } catch (ZebraPrinterLanguageUnknownException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * This method saves the mac address of a printer
+     */
+
+    public void saveMacAddress(String macAddress){
+        PreferenceManager.getDefaultSharedPreferences(activity).edit().putString("mac_address", macAddress).apply();
     }
 
 
@@ -128,14 +140,17 @@ public class PrintUtils {
         if (!mBluetoothAdapter.isEnabled()) {
             uiHelper.showErrorDialog("Bluetooth is disabled.");
         } else {
-            mBluetoothAdapter.startDiscovery();
-            uiHelper.showRecyclerDialog(activity, new BluetoothDeviceAdapter(activity, deviceList), mBluetoothAdapter);
+            if(!PreferenceManager.getDefaultSharedPreferences(activity).getString("mac_address", "").isEmpty()){
+                connectAndGetData(PreferenceManager.getDefaultSharedPreferences(activity).getString("mac_address", ""));
+            }else {
+                mBluetoothAdapter.startDiscovery();
+                uiHelper.showRecyclerDialog(activity, new BluetoothDeviceAdapter(activity, deviceList), mBluetoothAdapter);
+            }
         }
     }
 
     // NEEDED
     private void getPrinterStatus() throws ConnectionException {
-
         SGD.SET("device.languages", "hybrid_xml_zpl", connection);
     }
 
@@ -169,7 +184,7 @@ public class PrintUtils {
 
         PrinterLanguage pl = printer.getPrinterControlLanguage();
         if (pl == PrinterLanguage.ZPL) {
-            configLabel = "^XA^LH100,20^FO180,100^AQN,23,20^FDBaggage Care App^FS^FX^BY3,2,150^FO100,200^BC^FD12345678^FS^LH100,20^FO180,500^AQN,23,20^FDBaggage Care App^FS^FX ^BY3,2,150^FO100,550^BC^FD12345678^FS^LH100,20^FO180,900^AQN,23,20^FDBaggage Care App^FS^FX Third section with barcode.^BY3,2,150^FO100,950^BC^FD12345678^FS^XZ".getBytes();
+            configLabel = "^XA^FX Top section with company logo, name and address.^CF0,60^FO50,50^GB100,100,100^FS^FO75,75^FR^GB100,100,100^FS^FO88,88^GB50,50,50^FS^FO220,50^FDInternational Shipping, Inc.^FS^CF0,40^FO220,100^FD1000 Shipping Lane^FS^FO220,135^FDShelbyville TN 38102^FS^FO220,170^FDUnited States (USA)^FS^FO50,250^GB700,1,3^FS^FX Second section with recipient address and permit information.^CFA,30^FO50,300^FDJohn Doe^FS^FO50,340^FD100 Main Street^FS^FO50,380^FDSpringfield TN 39021^FS^FO50,420^FDUnited States (USA)^FS^CFA,15^FO600,300^GB150,150,3^FS^FO638,340^FDPermit^FS^FO638,390^FD123456^FS^FO50,500^GB700,1,3^FS^FX Third section with barcode.^BY5,2,270^FO100,550^BC^FD12345678^FS^FX Fourth section (the two boxes on the bottom).^FO50,900^GB700,250,3^FS^FO400,900^GB1,250,3^FS^CF0,40^FO100,960^FDShipping Ctr. X34B-1^FS^FO100,1010^FDREF1 F00B47^FS^FO100,1060^FDREF2 BL4H8^FS^CF0,190^FO485,965^FDCA^FS^XZ".getBytes();
         } else if (pl == PrinterLanguage.CPCL) {
             String cpclConfigLabel = "! 0 200 200 406 1\r\n" + "ON-FEED IGNORE\r\n" + "BOX 20 20 380 380 8\r\n" + "T 0 6 137 177 TEST\r\n" + "PRINT\r\n";
             configLabel = cpclConfigLabel.getBytes();

@@ -35,7 +35,7 @@ public class BluetoothDeviceAdapter extends RecyclerView.Adapter<BluetoothDevice
         holder.printerName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new PrintUtils(activity, null).fetchMacAddress(deviceArrayList.get(position).getAddress());
+                new PrintUtils(activity).fetchMacAddress(deviceArrayList.get(position).getAddress());
             }
         });
     }

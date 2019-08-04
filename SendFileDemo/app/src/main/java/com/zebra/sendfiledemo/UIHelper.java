@@ -35,6 +35,7 @@ import java.util.ArrayList;
  * @author mlim3 This class handles the display of dialogs.
  */
 public class UIHelper {
+
     private ProgressDialog loadingDialog;
     private Activity activity;
     private RecyclerView recyclerView;
